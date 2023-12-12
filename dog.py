@@ -5,9 +5,13 @@ class Dog:
         
     def bark(self):
         print(f'The dog with name {self.name} is barking')
+    
+    def sit(self):
+        print(f'{self.name} sit')
         
         
         
 my_dog = Dog("Rex", 6)
 my_dog.bark()
+my_dog.sit()
         
